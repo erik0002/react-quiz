@@ -45,7 +45,7 @@ class Quiz extends Component {
                 } else {
                     this.setState({
                         activeQuestion: this.state.activeQuestion + 1,
-                        answerState: null
+                        answersState: null
                     })
                 }
                 window.clearTimeout(timeout)
