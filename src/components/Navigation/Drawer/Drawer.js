@@ -4,9 +4,9 @@ import BackDrop from "../../UI/BackDrop/BackDrop";
 import {NavLink} from "react-router-dom"
 
 const links = [
-    {to: '/', label: 'Список', exact: true},
-    {to: '/auth', label: 'Авторизация', exact: false},
-    {to: '/quiz-creator', label: 'Создать тест', exact: false}
+    {to: '/', label: 'Lists', exact: true},
+    {to: '/auth', label: 'Authorization', exact: false},
+    {to: '/quiz-creator', label: 'Create list', exact: false}
 ]
 
 class Drawer extends Component {
